@@ -17,22 +17,21 @@ const config: Config = {
         serif: ['var(--font-iowan)'],
         mono: ['var(--font-roboto-mono)'],
       },
+      colors: {
+        transparent: 'transparent',
+        black: '#000',
+        white: '#fff',
+        blue: {
+          100: '#dfe4ff',
+          200: '#b3beff',
+          300: '#3f5cff',
+          400: '#152999',
+          500: '#05177D'
+        },
+        yellow: '#FEE13D'
+        // ...
+      }
     },
-    colors: {
-      transparent: 'transparent',
-      black: '#000',
-      white: '#fff',
-      blue: {
-        100: '#dfe4ff',
-        200: '#b3beff',
-        300: '#3f5cff',
-        400: '#152999',
-        500: '#05177D'
-      },
-      yellow: '#FEE13D'
-
-      // ...
-    }
   },
   plugins: [],
 };
