@@ -80,10 +80,10 @@ export default function Home() {
           Our team is here to ensure you have the best experience possible.
         </p>
         <Link className="text-lg font-bold cursor-pointer text-yellow text-center" href="/contact"> Contact Us {" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-            </Link>
+          <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            -&gt;
+          </span>
+        </Link>
       </div>
 
      <Footer/>
