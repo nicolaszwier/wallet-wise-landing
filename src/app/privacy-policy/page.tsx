@@ -11,7 +11,7 @@ export default function Faqs() {
       <strong>
         Privacy Policy
         </strong>
-        <p>This privacy policy applies to the WalletWise - Personal Finances app (hereby referred to as &quot;Application&quot;) for mobile devices that was created by Nicolas Zwierzykowski (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".</p>
+        <p>This privacy policy applies to the WalletWise - Personal Finances app (hereby referred to as &quot;Application&quot;) for mobile devices that was created by Nicolas Zwierzykowski (hereby referred to as &quot;Service Provider&quot;) as a Free service. This service is intended for use &quot;AS IS&quot;.</p>
         <br/>
         <strong>Information Collection and Use</strong>
         <p>The Application does not gather precise information about the location of your mobile device.</p>
