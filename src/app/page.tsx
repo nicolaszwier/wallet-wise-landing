@@ -11,32 +11,38 @@ export default function Home() {
       
       <div className="max-w-7xl flex flex-col-reverse sm:flex-row w-full p-6 pt-12 sm:min-h-[calc(100%-6rem)] gap-8">
         <div className="flex flex-col items-center justify-center min-w-64">
-          <Image
-            className="hidden dark:block" 
-            src="/iphone.png"
-            alt="Iphone image with a screenshot of the the app"
-            width={300}
-            height={800}
-          />
-          <Image 
-            className="block dark:hidden"
-            src="/iphone-light.png"
-            alt="Iphone image with a screenshot of the the app"
-            width={300}
-            height={800}
-          />
+          <Link href="https://apps.apple.com/ca/app/walletwise-personal-finances/id6578462190" target="_blank">
+            <Image
+              className="hidden dark:block" 
+              src="/iphone.png"
+              alt="Iphone image with a screenshot of the the app"
+              width={300}
+              height={800}
+            />
+          </Link>
+          <Link href="https://apps.apple.com/ca/app/walletwise-personal-finances/id6578462190" target="_blank">
+            <Image 
+              className="block dark:hidden"
+              src="/iphone-light.png"
+              alt="Iphone image with a screenshot of the the app"
+              width={300}
+              height={800}
+            />
+          </Link>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-8">
           <h1 className="font-serif text-center text-yellow text-5xl leading-tight md:leading-snug">Simplify your finances planning with WalletWise</h1>
           <h2 className="text-center text-xl">The easiest way to control your personal finances!</h2>
-          <Image
-            className="relative dark:invert cursor-pointer"
-            src="/appstore.png"
-            alt="AppStore link to download the app"
-            width={180}
-            height={37}
-            priority
-          />
+          <Link href="https://apps.apple.com/ca/app/walletwise-personal-finances/id6578462190" target="_blank">
+            <Image
+              className="relative dark:invert cursor-pointer"
+              src="/appstore.png"
+              alt="AppStore link to download the app"
+              width={180}
+              height={37}
+              priority
+            />
+          </Link>
         </div>
       </div>
 
@@ -63,14 +69,16 @@ export default function Home() {
       <div className="w-full flex bg-blue-400 justify-center items-center flex-col p-6 pt-8 pb-14 gap-10" id="download">
         <h1 className="max-w-7xl text-center text-4xl font-semibold mt-10">Ready to Take Control of Your Finances?</h1>
         <h2 className="max-w-7xl text-center text-xl">Download WalletWise today and start simplifying your financial life.</h2>
-        <Image
-            className="relative dark:invert cursor-pointer"
-            src="/appstore.png"
-            alt="AppStore link to download the app"
-            width={180}
-            height={37}
-            priority
-          />
+        <Link href="https://apps.apple.com/ca/app/walletwise-personal-finances/id6578462190" target="_blank">
+          <Image
+              className="relative dark:invert cursor-pointer"
+              src="/appstore.png"
+              alt="AppStore link to download the app"
+              width={180}
+              height={37}
+              priority
+            />  
+        </Link>
       </div>
       <div className="w-full flex bg-blue-500 justify-center items-center flex-col p-6 pt-8 pb-14 gap-10">
         <h1 className="max-w-7xl text-center text-4xl font-semibold mt-10">Contact Us</h1>
