@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local"
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const iowan = localFont({
   src: "./iowan-bold.ttf",
@@ -22,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" style={{scrollBehavior:'smooth'}}>
-      <body className={`${inter.className} ${iowan.variable}`}>{children}</body>
+      <body className={`${inter.className} ${iowan.variable}`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
