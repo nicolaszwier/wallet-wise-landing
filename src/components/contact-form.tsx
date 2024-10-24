@@ -101,18 +101,18 @@ export default function ContactForm() {
           </div>
           {showError && (
             <div className="border border-blue-400 rounded-md p-2 flex justify-center flex-col items-center">
-              <h3 className="question-btn flex items-start gap-x-5 justify-between rounded-lg text-center text-yellow text-lg font-bold py-2" data-toggle="answer-1">
+              <h3 className="question-btn flex items-start gap-x-5 justify-between rounded-lg text-center text-green text-lg font-bold py-2" data-toggle="answer-1">
                 Oops! Something went wrong.
               </h3>
               <p className="answer pt-2 pb-5 text-sm lg:text-base text-blue-100 text-center">
                 We couldn’t send your message. Please try again later or contact us directly at
-                <Link className="font-bold cursor-pointer text-yellow text-center" href="mailto:support@walletwise.com?subject=WalletWise%20support%20request"> support@walletwise.com </Link>
+                <Link className="font-bold cursor-pointer text-green text-center" href="mailto:support@walletwise.com?subject=WalletWise%20support%20request"> support@walletwise.com </Link>
               </p>
             </div>
           )}
           <button 
             type="submit" 
-            className="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-yellow w-full lg:w-fit float-end hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">
+            className="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-green w-full lg:w-fit float-end hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">
               Send message
           </button>
         </form>
@@ -120,12 +120,12 @@ export default function ContactForm() {
 
       {pageState === PageState.success && (
         <div className="border border-blue-400 rounded-md p-2 flex justify-center flex-col items-center">
-          <h3 className="question-btn flex items-start gap-x-5 justify-between rounded-lg text-center text-yellow text-lg font-bold py-2" data-toggle="answer-1">
+          <h3 className="question-btn flex items-start gap-x-5 justify-between rounded-lg text-center text-green text-lg font-bold py-2" data-toggle="answer-1">
               Thank you for reaching out!
           </h3>
           <p className="answer pt-2 pb-5 text-sm lg:text-base text-blue-100 text-center">
             We’ve received your message and will get back to you as soon as possible. In the meantime, feel free to explore WalletWise or check out our 
-            <Link className="font-bold cursor-pointer text-yellow text-center" href="/frequently-asked-questions"> FAQ </Link>
+            <Link className="font-bold cursor-pointer text-green text-center" href="/frequently-asked-questions"> FAQ </Link>
             page for quick answers.
           </p>
         </div>

@@ -31,7 +31,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="flex flex-col items-center justify-center w-full gap-8">
-          <h1 className="font-serif text-center text-yellow text-5xl leading-tight md:leading-snug">Simplify your finances planning with WalletWise</h1>
+          <h1 className="font-serif text-center text-green text-5xl leading-tight md:leading-snug">Simplify your finances planning with WalletWise</h1>
           <h2 className="text-center text-xl">The easiest way to control your personal finances!</h2>
           <Link href="https://apps.apple.com/ca/app/walletwise-personal-finances/id6578462190" target="_blank">
             <Image
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex bg-yellow justify-center items-center flex-col p-6" id="features">
+      <div className="w-full flex bg-green justify-center items-center flex-col p-6" id="features">
         <h1 className="text-center text-4xl font-semibold mt-10 mb-10 text-black">What WalletWise Offers</h1>
         <div className="max-w-7xl grid text-center md:mb-0 md:w-full md:grid-cols-2 text-black">
           <FeatureItem title="Create Custom Plannings" description="Easily create multiple plannings tailored to your needs."/>
@@ -87,7 +87,7 @@ export default function Home() {
           If you have any questions, feedback, or need assistance with WalletWise, don’t hesitate to reach out. <br /> 
           Our team is here to ensure you have the best experience possible.
         </p>
-        <Link className="text-lg font-bold cursor-pointer text-yellow text-center" href="/contact"> Contact Us {" "}
+        <Link className="text-lg font-bold cursor-pointer text-green text-center" href="/contact"> Contact Us {" "}
           <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
             -&gt;
           </span>

@@ -5,7 +5,7 @@ export default function Footer() {
         Developed by Nicolas Zwierzykowski
       </p>
       <a href="http://nicolasz.dev/en" 
-        className="text-sm font-bold cursor-pointer text-yellow text-center"
+        className="text-sm font-bold cursor-pointer text-green text-center"
         target="_blank"
         rel="noopener noreferrer"
       >

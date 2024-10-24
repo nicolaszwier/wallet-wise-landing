@@ -60,7 +60,7 @@ export default function Faqs() {
           <section className="max-w-7xl grid text-center md:mb-0 md:w-full lg:grid-cols-2 gap-8">
             {faqsData.map((faq, index) => (
               <div key={index} className="border-b border-blue-400">
-                <h3 className="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-yellow text-lg font-bold py-3" data-toggle="answer-1">
+                <h3 className="question-btn flex w-full items-start gap-x-5 justify-between rounded-lg text-left text-green text-lg font-bold py-3" data-toggle="answer-1">
                     <span>{faq.question}</span>
                     {/* <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className=" mt-1.5 md:mt-0 flex-shrink-0 rotate-180 transform h-5 w-5 text-[#5B5675]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg> */}
                 </h3>

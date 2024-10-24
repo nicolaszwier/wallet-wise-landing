@@ -4,17 +4,17 @@
 
 :root {
   --foreground: #ffffff;
-  --background: #05177D;
+  --background: #1A1935;
   --background-end: #05177D;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #ffffff;
     --background: #05177D;
     --background-end: #05177D;
   }
-}
+} */
 
 body {
   color: var(--foreground);
