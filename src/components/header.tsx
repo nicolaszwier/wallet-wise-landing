@@ -2,18 +2,18 @@
 
 import Link from 'next/link'
 import MenuLinks from './menu-links'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 
 export default function Header() {
   const [menuToggle, setMenuToggle] = useState(false)
+  const menuRef = useRef<HTMLDivElement | null>(null)
   
   const handleMenuToggle = () => {
     setMenuToggle((last)=>!last)
   }
 
   const handleClickOutside = (event:any) => {
-    let menu = document.getElementById("mobile-menu");
-    if (!menu?.contains(event.target)) {
+    if (!menuRef.current?.contains(event.target)) {
       setMenuToggle(false)
     }
 }
@@ -33,7 +33,7 @@ export default function Header() {
       {menuToggle && (
         <div onMouseUp={(event)=>handleClickOutside(event)} className="absolute w-screen left-0 top-0 bottom-0 shadow-sm z-50 flex md:hidden justify-center transition-all">
         
-          <div className="absolute w-11/12 md:block md:w-auto mt-20" id="mobile-menu">
+          <div className="absolute w-11/12 md:block md:w-auto mt-20" id="mobile-menu" ref={menuRef}>
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-blue-400 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link href="/" className="block py-2 px-3 text-gray-900 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 dark:hover:bg-blue-500">Home</Link>
