@@ -32,7 +32,7 @@ export default function Faqs() {
         <strong>Opt-Out Rights</strong>
         <p>You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.</p><br/>
         <strong>Data Retention Policy</strong>
-        <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you&apos;d like them to delete User Provided Data that you have provided via the Application, please contact them at walletwise.money@gmail.com and they will respond in a reasonable time.</p><br/>
+        <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you&apos;d like them to delete User Provided Data that you have provided via the Application, please contact them at contact@walletwise.cash and they will respond in a reasonable time.</p><br/>
         <strong>Children</strong>
         <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.</p>
         <div><br/>
@@ -43,7 +43,7 @@ export default function Faqs() {
             personal information, the Service Provider will immediately
             delete this from their servers. If you are a parent or guardian
             and you are aware that your child has provided us with
-            personal information, please contact the Service Provider (walletwise.money@gmail.com) so that
+            personal information, please contact the Service Provider (contact@walletwise.cash) so that
             they will be able to take the necessary actions.
           </p>
         </div><br/>
@@ -58,7 +58,7 @@ export default function Faqs() {
         <strong>Your Consent</strong>
         <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.</p><br/>
         <strong>Contact Us</strong>
-        <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at walletwise.money@gmail.com.</p>
+        <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at contact@walletwise.cash.</p>
           
         </div> 
     </main>

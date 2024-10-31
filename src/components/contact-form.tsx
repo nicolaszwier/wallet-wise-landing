@@ -106,7 +106,7 @@ export default function ContactForm() {
               </h3>
               <p className="answer pt-2 pb-5 text-sm lg:text-base text-blue-100 text-center">
                 We couldn’t send your message. Please try again later or contact us directly at
-                <Link className="font-bold cursor-pointer text-green text-center" href="mailto:support@walletwise.com?subject=WalletWise%20support%20request"> support@walletwise.com </Link>
+                <Link className="font-bold cursor-pointer text-green text-center" href="mailto:contact@walletwise.cash?subject=WalletWise%20support%20request"> contact@walletwise.cash </Link>
               </p>
             </div>
           )}
